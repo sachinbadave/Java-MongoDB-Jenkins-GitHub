@@ -76,8 +76,8 @@
 	                <branch>refs/heads/mvn-repo</branch>                       <!-- remote branch name -->
 	                <includes><include>**/*</include></includes>
 	                <force>true</force>
-	                <!--<repositoryName>https://github.com/sachinbadave/build-release.git</repositoryName>      <!-- github repo name -->
-	                <!--<repositoryOwner>sachinbadave</repositoryOwner>    <!-- github username  -->
+	                <!--<repositoryName>https://github.com/sachinbadave/build-release.git</repositoryName>-->      <!-- github repo name -->
+	                <!--<repositoryOwner>sachinbadave</repositoryOwner>-->    <!-- github username  -->
 	            </configuration>
 	            <executions>
 	              <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
