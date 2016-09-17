@@ -29,11 +29,19 @@
   </dependencies>
   <name>Java-MongoDB-DevOps</name>
   <distributionManagement>
-    <repository>
-        <id>internal.repo</id>
-        <name>Temporary Staging Repository</name>
-        <url>file://${project.build.directory}/mvn-repo</url>
-    </repository>
+	<repository>
+	     <id>internal.repo</id>
+	     <name>Temporary Staging Repository</name>
+	     <url>file://${project.build.directory}/mvn-repo</url>
+	</repository>
+	<repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+        <site>
+            <id>github-site</id>
+            <url>https://github.com/sachinbadave/build-release</url>
+        </site>
   </distributionManagement>
   
   <scm>
@@ -81,7 +89,7 @@
 	                <goals>
 	                  <goal>site</goal>
 	                </goals>
-	                <phase>deploy</phase>
+	                <phase>site-deploy</phase>
 	              </execution>
 	            </executions>
         </plugin>
