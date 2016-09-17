@@ -41,7 +41,7 @@
 	<connection>scm:git:https://github.com/sachinbadave/build-release.git</connection>
 	<developerConnection>scm:git:https://github.com/sachinbadave/build-release.git</developerConnection>
 	<tag>HEAD</tag>
-  </scm
+  </scm>
   
   <build>
   	<plugins>
