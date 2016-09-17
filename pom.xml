@@ -34,18 +34,18 @@
 	     <name>Temporary Staging Repository</name>
 	     <url>file://${project.build.directory}/mvn-repo</url>
 	</repository>
-	<site>
+	<!--<site>
             <id>github-site</id>
             <url>https://github.com/sachinbadave/build-release</url>
-        </site>
+        </site> -->
   </distributionManagement>
   
-  <scm>
+  <!--<scm>
 	<url>https://github.com/sachinbadave/build-release</url>
 	<connection>scm:git:https://github.com/sachinbadave/build-release.git</connection>
 	<developerConnection>scm:git:git@github.com:sachinbadave/build-release.git</developerConnection>
 	<tag>HEAD</tag>
-  </scm>
+  </scm>-->
   
   <build>
   	<plugins>
